@@ -1,0 +1,41 @@
+h1 {
+    margin: auto;
+    text-align: center;
+}
+.game {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.grid {
+    width: 300px;
+    height: 300px;
+    border: solid 1px #000000;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.grid div {
+    width: 20px;
+    height: 20px;
+    box-sizing: border-box;
+   
+}
+
+.alien {
+    background-color: pink;
+    border-radius: 10px;
+}
+
+.shooter {
+    background-color: blue;
+    
+}
+.laser {
+    background-color: greenyellow;
+}
+.boom {
+    background-color: red;
+}
